@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+
+:root {
+  --primary: #f2c94c;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+}
+textarea {
+  margin-top: 0.5rem;
+  width: 80%;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 20vh;
+  background:black;
+  opacity: 0.5;
+  border-radius: 0.5rem;
+  color: white;
+}
+textarea .text-output{
+  border-radius: 0.5rem;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+.container {
+  margin: auto;
+  margin-top: 15vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1000px;
+}
+#btn-translate {
+  display: flex;
+  padding: 1.2rem 5rem;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-width: 150px;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 0.5rem;
+}
+.footer .sub-heading {
+  margin: auto;
+  max-width: 600px;
+  line-height: 2;
+  font-size: 1rem;
+}
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 0.5rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  body {
+  background-image: url(/images/background-mobile.jpg);
+  }
+}
